@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+   
+    background: radial-gradient(#f1e1c2,#f7955b);
+}
+
+.navbar{
+    flex: 1;
+}
+.navbar ul{
+    text-align: right;
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right:20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(250, 122, 2);
+    transition: border-bottom 0.1s ease-in-out;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid black;
+}
+#contact{
+   border-bottom: 0px;
+    border-radius: 60px;
+    color: white;
+}
+#contacthead{
+   
+    height: 300px;
+    width: 100%;
+    top: 0px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: radial-gradient(#f1e1c2,#f7955b);
+
+}
+#contacthead h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 6px;
+    color: white;
+}
+#contacthead p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 6px;
+    color: rgb(250, 122, 2);
+    font-weight: bold;
+}
+#contactus{
+    position: absolute;
+    top: 342px;
+    left: 40%;
+    height: 450px;
+    background: radial-gradient(#f1e1c2,#fbfafa);
+    width: 314px;
+    box-shadow: -5px -6px 57px #d94e0f;
+}
+#contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.contact-method{
+    padding: 8px;
+}
+#contact h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+    color: rgb(98, 8, 88);
+    margin-top: 44px;
+    
+}
+
+#insta{
+    padding: 29px;
+}
+
+#contact-box img{
+    width: 66px;
+    padding: 1px;
+    margin: 8px;
+    height: auto;
+}
+.back{
+    background: black;
+    position: absolute;
+    top: 846px;
+}
+.footer{
+    display: flex;
+    padding: 20px;
+}
+.col{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.col p{
+    padding: 20px 80px;
+    color: grey;
+}
+.col ul{
+    list-style: none;
+}
+.col ul li{
+    margin-bottom: 10px;
+}
+.col ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.col ul li a:hover{
+    text-decoration: underline;
+}
+.copy{
+    padding: 20px;
+    text-align: center;
+    color: grey;
+}
