@@ -52,3 +52,50 @@
     padding: 34px;
     margin: 22px;
 }
+.back{
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 240vh;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.col{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.col p{
+    padding: 20px 80px;
+    color: grey;
+    font-size: 1.5rem;
+    
+}
+.col ul{
+    list-style: none;
+}
+.col ul li{
+    margin-bottom: 10px;
+}
+.col ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.col ul li a:hover{
+    text-decoration: underline;
+}
+.copy{
+    padding: 20px;
+    text-align: center;
+    color: grey;
+    font-size: 1.5rem;
+}
