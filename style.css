@@ -62,8 +62,17 @@
 }
 .login{
     margin-top: 20px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     width: 150px;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 7px 1px;
+    font-size: 15px;
+}
+.login:hover{
+    transform: translateY(-2px);
 }
 .btn{
     width: 100%;
@@ -71,4 +80,45 @@
 }
 .margin{
     margin-left: 20px;
+}
+
+/* footer */
+
+.back{
+    background: black;
+}
+.footer{
+    display: flex;
+    padding: 20px;
+}
+.col{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.col p{
+    padding: 20px 80px;
+    color: grey;
+}
+.col ul{
+    list-style: none;
+}
+.col ul li{
+    margin-bottom: 10px;
+}
+.col ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.col ul li a:hover{
+    text-decoration: underline;
+}
+.copy{
+    padding: 20px;
+    text-align: center;
+    color: grey;
 }
